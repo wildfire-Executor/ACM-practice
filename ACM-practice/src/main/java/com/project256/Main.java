@@ -1,4 +1,4 @@
-package com.project256.quant;
+package com.project256;
 
 /**
  * @author Xingchen.Lin
