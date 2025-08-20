@@ -15,7 +15,7 @@ public class A2000 {
         while (scanner.hasNext()) {
             String s = scanner.nextLine();
             String[] sa = s.split("");
-            System.out.println(String.join(" ", Arrays.stream(sa).sorted().collect(Collectors.toList())));
+            System.out.println(Arrays.stream(sa).sorted().collect(Collectors.joining(" ")));
         }
     }
 
